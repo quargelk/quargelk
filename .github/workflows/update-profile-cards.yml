@@ -1,0 +1,50 @@
+
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Prepare output directory
+        run: mkdir -p profile
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide_border=true&bg_color=0D1021&title_color=A78BFA&text_color=C9CFEA
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate streak card
+        uses: zients/github-readme-streak-stats@v2
+        with:
+          options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&background=0D1021&stroke=2E3560&ring=8B5CF6&fire=60A5FA&currStreakNum=F4F5FF&sideNums=F4F5FF&currStreakLabel=A78BFA&sideLabels=A78BFA&dates=7D86A8
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated cards
+        run: |
+          git add profile/top-langs.svg profile/streak.svg
+
+          if git diff --cached --quiet; then
+            echo "Cards are unchanged."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update profile stats cards"
+          git push
