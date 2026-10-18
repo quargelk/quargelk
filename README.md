@@ -26,12 +26,12 @@
 <div align="center">
   <img
     width="49%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=quargelk&layout=compact&langs_count=6&hide_border=true&bg_color=0D1021&title_color=A78BFA&text_color=C9CFEA"
+    src="./profile/top-langs.svg"
     alt="Самые используемые языки"
   />
   <img
     width="49%"
-    src="https://streak-stats.demolab.com?user=quargelk&theme=tokyonight&hide_border=true&background=0D1021&stroke=2E3560&ring=8B5CF6&fire=60A5FA&currStreakNum=F4F5FF&sideNums=F4F5FF&currStreakLabel=A78BFA&sideLabels=A78BFA&dates=7D86A8"
+    src="./profile/streak.svg"
     alt="Активность на GitHub"
   />
 </div>
