@@ -147,17 +147,12 @@
   "buttons": {
     "items": [
       {
-        "icon": "language",
-        "label": "Мой сайт",
-        "url": "https://example.com",
-        "style": "filled"
-      },
-      {
         "icon": "book_2",
         "label": "Все репозитории",
         "url": "",
         "style": "tonal"
       }
-    ]
+    ],
+    "card": false
   }
 }

@@ -8,13 +8,17 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Стек"></picture>
 
+<a href="https://github.com/quargelk/easy-vless"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-easy-vless-dark.svg"><img src="assets/project-easy-vless-light.svg" width="49%" alt="easy-vless"></picture></a>&nbsp;<a href="https://github.com/quargelk/NekoRay-NT5"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-nekoray-nt5-dark.svg"><img src="assets/project-nekoray-nt5-light.svg" width="49%" alt="NekoRay-NT5"></picture></a>
+
+<a href="https://github.com/quargelk/quargelk"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-quargelk-dark.svg"><img src="assets/project-quargelk-light.svg" width="49%" alt="quargelk"></picture></a>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="Активность на GitHub"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" width="100%" alt="Серия"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/wave-dark.svg"><img src="assets/wave-light.svg" width="100%" alt=""></picture>
 
-<a href="https://example.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-1-dark.svg"><img src="assets/button-1-light.svg" width="auto" alt="Мой сайт"></picture></a>&nbsp;&nbsp;<a href="https://github.com/quargelk?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-2-dark.svg"><img src="assets/button-2-light.svg" width="auto" alt="Все репозитории"></picture></a>
+<a href="https://github.com/quargelk?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-1-dark.svg"><img src="assets/button-1-light.svg" width="auto" alt="Все репозитории"></picture></a>
 
 <a href="https://metawka.github.io/expressive-profile/?from=quargelk"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/credit-dark.svg"><img src="assets/credit-light.svg" width="auto" alt="Made with Expressive Profile"></picture></a>
 
