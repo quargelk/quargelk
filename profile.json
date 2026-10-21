@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "login": "quargelk",
+  "seed": "#DD8C9B",
+  "seedFromAvatar": true,
+  "scheme": "tonalSpot",
+  "motion": true,
+  "iconFill": true,
+  "order": [
+    "hero",
+    "socials",
+    "about",
+    "stack",
+    "projects",
+    "stats",
+    "streak",
+    "wave",
+    "buttons"
+  ],
+  "hidden": [],
+  "hero": {
+    "greeting": "Привет, я",
+    "name": "quargelk",
+    "subtitle": "Не нашёл нужного решения - сделай его сам",
+    "typing": true,
+    "avatarShape": "cookie12",
+    "chips": [
+      {
+        "icon": "location_on",
+        "label": "RU"
+      },
+      {
+        "icon": "code",
+        "label": "Open Source"
+      }
+    ]
+  },
+  "about": {
+    "title": "Обо мне",
+    "items": [
+      {
+        "icon": "brand:openwrt",
+        "label": "OpenWrt Enthusiast"
+      },
+      {
+        "icon": "code",
+        "label": "Vibe Coder"
+      },
+      {
+        "icon": "rocket_launch",
+        "label": "Tech Enthusiast"
+      }
+    ]
+  },
+  "stack": {
+    "title": "Стек",
+    "groups": [
+      {
+        "title": "Main",
+        "items": [
+          {
+            "icon": "code",
+            "label": "C#"
+          },
+          {
+            "icon": "brand:python",
+            "label": "Python"
+          },
+          {
+            "icon": "brand:lua",
+            "label": "Lua"
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "items": [
+          {
+            "icon": "brand:claudecode",
+            "label": "Claude Code"
+          },
+          {
+            "icon": "brand:git",
+            "label": "Git"
+          },
+          {
+            "icon": "brand:githubactions",
+            "label": "GitHub Actions"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "items": []
+      }
+    ]
+  },
+  "projects": {
+    "source": "pinned",
+    "repos": [],
+    "overrides": {
+      "easy-vless": {
+        "icon": "brand:openwrt"
+      },
+      "NekoRay-NT5": {
+        "text": "Неофициальный форк NekoRay для Windows XP SP3 и Windows 2000 SP4 (x86)."
+      },
+      "quargelk": {
+        "text": "Био"
+      }
+    },
+    "empty": "Описания пока нет.",
+    "fork": "Fork"
+  },
+  "stats": {
+    "title": "Активность на GitHub",
+    "stars": "Звёзд получено",
+    "contributions": "Вкладов за год",
+    "repos": "Публичных репо",
+    "followers": "Подписчиков",
+    "calendar": "Последние 21 день",
+    "weekdays": "ВПВСЧПС",
+    "languages": "Языки в моих репозиториях",
+    "showLanguages": true
+  },
+  "streak": {
+    "title": "Серия",
+    "current": "Текущая серия",
+    "longest": "Рекорд за год",
+    "days": "дн."
+  },
+  "socials": {
+    "items": [
+      {
+        "icon": "brand:discord",
+        "url": "https://discord.com/users/321621856186793987"
+      },
+      {
+        "icon": "brand:spotify",
+        "url": "https://open.spotify.com/user/314l2xpzhn4rcojsixvabl3wibwa?si=2cf69c447f304743"
+      }
+    ],
+    "variant": "chip",
+    "fill": "tonal",
+    "card": true
+  },
+  "buttons": {
+    "items": [
+      {
+        "icon": "language",
+        "label": "Мой сайт",
+        "url": "https://example.com",
+        "style": "filled"
+      },
+      {
+        "icon": "book_2",
+        "label": "Все репозитории",
+        "url": "",
+        "style": "tonal"
+      }
+    ]
+  }
+}

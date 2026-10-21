@@ -1,37 +1,25 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D5EF5,100:3B82F6&height=160&section=header&text=Quargelk&fontSize=48&fontColor=ffffff&animation=fadeIn" width="100%" />
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=2000&color=A78BFA&center=true&vCenter=true&width=560&lines=%D0%9D%D0%B5+%D0%BD%D0%B0%D1%88%D1%91%D0%BB+%D0%BD%D1%83%D0%B6%D0%BD%D0%BE%D0%B5+%E2%80%94+%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB+%D1%81%D0%B0%D0%BC" alt="Не нашёл нужное — сделал сам" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Привет, я quargelk"></picture>
 
-  <p>
-    💡 <a href="https://chatgpt.com"><b>ChatGPT</b></a> — идея и промпт
-    &nbsp; · &nbsp;
-    🛠️ <a href="https://claude.ai"><b>Claude</b></a> — реализация
-  </p>
-</div>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-l-dark.svg"><img src="assets/social-l-light.svg" width="33.717%" alt=""></picture><a href="https://discord.com/users/321621856186793987"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-1-dark.svg"><img src="assets/social-1-light.svg" width="16.552%" alt="discord"></picture></a><a href="https://open.spotify.com/user/314l2xpzhn4rcojsixvabl3wibwa?si=2cf69c447f304743"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-2-dark.svg"><img src="assets/social-2-light.svg" width="16.011%" alt="spotify"></picture></a><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-r-dark.svg"><img src="assets/social-r-light.svg" width="33.717%" alt=""></picture>
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg"><img src="assets/about-light.svg" width="100%" alt="Обо мне"></picture>
 
-### 🚀 Проекты и эксперименты
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Стек"></picture>
 
-| Проект | Описание | Статус |
-|:--|:--|:--:|
-| **[Easy VLESS](https://github.com/quargelk/easy-vless)** | Клиент VLESS и Trojan для OpenWrt с прозрачным прокси и маршрутизацией по правилам. | **[Релизы](https://github.com/quargelk/easy-vless/releases)** |
-| **[NekoBox NT5](https://github.com/quargelk/NekoRay-NT5)** | Портирование NekoBox для Windows XP и Windows 2000. | **[Релизы](https://github.com/quargelk/NekoRay-NT5/releases/)** |
+<a href="https://github.com/quargelk/easy-vless"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-easy-vless-dark.svg"><img src="assets/project-easy-vless-light.svg" width="49%" alt="easy-vless"></picture></a>&nbsp;<a href="https://github.com/quargelk/NekoRay-NT5"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-nekoray-nt5-dark.svg"><img src="assets/project-nekoray-nt5-light.svg" width="49%" alt="NekoRay-NT5"></picture></a>
 
----
+<a href="https://github.com/quargelk/quargelk"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-quargelk-dark.svg"><img src="assets/project-quargelk-light.svg" width="49%" alt="quargelk"></picture></a>
 
-### 📊 Языки и активность
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="Активность на GitHub"></picture>
 
-<div align="center">
-  <img
-    width="49%"
-    src="./profile/top-langs.svg"
-    alt="Самые используемые языки"
-  />
-  <img
-    width="49%"
-    src="./profile/streak.svg"
-    alt="Активность на GitHub"
-  />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" width="100%" alt="Серия"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/wave-dark.svg"><img src="assets/wave-light.svg" width="100%" alt=""></picture>
+
+<a href="https://example.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-1-dark.svg"><img src="assets/button-1-light.svg" width="auto" alt="Мой сайт"></picture></a>&nbsp;&nbsp;<a href="https://github.com/quargelk?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-2-dark.svg"><img src="assets/button-2-light.svg" width="auto" alt="Все репозитории"></picture></a>
+
+<a href="https://metawka.github.io/expressive-profile/?from=quargelk"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/credit-dark.svg"><img src="assets/credit-light.svg" width="auto" alt="Made with Expressive Profile"></picture></a>
+
 </div>
